@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-/* Components ---------------------------*/
-import Test from './Test.jsx';
-
-const Main = () => {
+const hotdogAndhotdogman = () => {
+    
+    const [imageSrc, imageSrcUpdate] = useState('/assets/img/hotdog.png');
+    
+    const imageOver = () => {
+        imageSrcUpdate('/assets/img/hotdogman.png');
+    }
+    const imageOut = () => {
+        imageSrcUpdate('/assets/img/hotdog.png');
+    }
 
     return (
-        <div className='Main'>
-            <h1>Nick's Final </h1>
+        <div>Hotdog and Hotdog Man
+            <img 
+                src={ imageSrc }
+                onMouseOver={ imageOver }
+                onMouseOut={ imageOut }
+                />
         </div>
-    );
+    )
 }
 
-export default Main;
+export default hotdogAndhotdogman;
