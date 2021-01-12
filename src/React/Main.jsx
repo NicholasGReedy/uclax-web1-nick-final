@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const hotdogAndhotdogman = () => {
+const HotdogAndHotdogman = () => {
     
     const [imageSrc, imageSrcUpdate] = useState('/assets/img/hotdog.png');
     
@@ -22,4 +22,4 @@ const hotdogAndhotdogman = () => {
     )
 }
 
-export default hotdogAndhotdogman;
+export default HotdogAndHotdogman;
