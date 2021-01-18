@@ -15,6 +15,7 @@ const HotdogAndHotdogman = () => {
         <div>Hotdog and Hotdog Man
             <img 
                 src={ imageSrc }
+                alt='Hotdog and Hotdogman'
                 onMouseOver={ imageOver }
                 onMouseOut={ imageOut }
                 />
