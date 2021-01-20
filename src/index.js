@@ -13,9 +13,9 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import Main from './React/Main.jsx';
+import Container from './React/Main.jsx';
 
 /*---------------------------
 | Render to DOM
 ---------------------------*/
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Container />, document.getElementById('root'));

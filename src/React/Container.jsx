@@ -2,9 +2,8 @@ import React from 'react';
 
 import Header from './Header.jsx';
 import Nav from './Nav.jsx';
-import HotdogAndHotdogman from './Main.jsx';
-import Footer from './Footer.jsx'
-import HotdogAndHotdogman from './Main.jsx';
+import Main from './Main.jsx';
+import Footer from './Footer.jsx';
 
 const Container = () => {
     return (
@@ -12,7 +11,7 @@ const Container = () => {
             CONTENT
             <Header />
             <Nav />
-            <HotdogAndHotdogman />
+            <Main />
             <Footer />
         </div>
     );
