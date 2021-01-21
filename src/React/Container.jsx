@@ -4,6 +4,7 @@ import Header from './Header.jsx';
 import Nav from './Nav.jsx';
 import Main from './Main.jsx';
 import Footer from './Footer.jsx';
+import HotdogAndHotdogman from './Main.jsx';
 
 const Container = () => {
     return (
@@ -11,7 +12,7 @@ const Container = () => {
             CONTENT
             <Header />
             <Nav />
-            <Main />
+            <HotdogAndHotdogman />
             <Footer />
         </div>
     );

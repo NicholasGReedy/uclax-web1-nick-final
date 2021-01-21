@@ -13,7 +13,7 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import Container from './React/Main.jsx';
+import Container from './React/Container.jsx';
 
 /*---------------------------
 | Render to DOM
