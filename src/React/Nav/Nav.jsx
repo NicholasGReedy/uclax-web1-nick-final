@@ -2,6 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
+
+/* Scripts ---------------------------*/
+import { mq } from '../../common/media_queries.js';
+
 const Nav = () => {
     return (
         <NavStyled className="Nav">
@@ -16,16 +20,5 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    a {
-        background: maroon;
-        color: white;
-        text-decoration: none;
 
-        padding: 10px;
-        margin: 10px;
-
-        &.active {
-            background-color: #550b0b;
-        }
-    }
 `;
